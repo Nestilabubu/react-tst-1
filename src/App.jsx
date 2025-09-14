@@ -1,10 +1,14 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import './App.css';
+import Button from './components/Button/Button';
 
 function App() {
-  return <>Самый крутой проект</>;
+  return (
+    <>
+      <h1>Заголовок</h1>
+      <div>Самый крутой проект</div>
+      <Button />
+    </>
+  );
 }
 
 export default App;
